@@ -1,0 +1,195 @@
+.ko{
+    width: 100%;
+    min-height: 100vh;
+    margin-bottom: 2000px;
+    background-color: rgb(244, 244, 244);
+    margin: 0;
+    padding: 0;
+    transition: all 0.1 ease;
+}
+
+
+
+.yo{
+    width: 70px;
+    height: 100vh;
+    background-color: #051650;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top:0;
+    border-right: 1px solid black;
+    backdrop-filter: blur(100px);
+    transition: all 0.3 ease;
+}
+
+.jd{
+    margin-left: 15px;
+    color: white;
+}
+.jd:hover{
+    color: rgb(255, 251, 0);
+    cursor: pointer;
+}
+.ad{
+    color: white;
+    margin-left: 13px;
+}
+
+.ad:hover{
+    color: rgb(255, 251, 0);
+    cursor: pointer;
+    transition: all 0.5 ease;
+}
+
+.box1{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: auto;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+
+.box2{
+    width: 940px;
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.viewjob{
+    margin-left: 270px;
+
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd; 
+    padding: 8px; 
+}
+th {
+    background-color: #f4f4f4; 
+    text-align: left;
+}
+
+th + th {
+    margin-left: 10px;
+}
+
+
+
+@media (max-width: 726px) {
+    .yo {
+        display: none;
+        transition: all 0.3 ease;
+    }
+}
+
+
+
+
+.topbar{
+    width: 100%;
+    height: 70px;
+    background-color: #051650;
+    top: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur;
+}
+
+.jobdetails{
+    margin-left: 155px;
+
+}
+
+.logout:hover{
+    color: black;
+}
+
+.logo{
+    margin-left: 1000px;
+    margin-top: 18px;
+
+}
+.logo:hover{
+    cursor: pointer;
+    color: white;
+}
+
+.je{
+    width: 1200px;
+    height: 900px;
+    margin-left: 50px;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+
+.list:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.109)
+}
+
+.recrutify{
+    margin-left: 120px;
+    font-size: 40px;
+    margin-top: 8px;
+    color: #051650;
+}
+
+.index{
+    width: 600px;
+    height: 360px;
+    background-color: white;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.interview{
+    width: 95%;
+    min-height: auto;
+    transition: 0.1 all ease;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.interviewdata{
+    margin-left: 300px;
+}
+
+.assign{
+    width: 95%;
+    min-height: auto;
+    transition: 0.1 all ease;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 60px;
+    margin-bottom: 200px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.switch{
+    margin-bottom: auto;
+}
